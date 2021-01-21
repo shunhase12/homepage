@@ -1,7 +1,174 @@
+
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shun Hasegawa</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+      div.table{
+      clear:both;
+      float:left;
+      width:300px;
+      }
+     </style>
+
+    <div class="container">
+      <h2>Shun Hasegawa
+          <b  style="FONT-WEIGHT:NORMAL;">
+          <font size=3>
+              [<a href="https://tatsuokun.github.io/cv.pdf">CV</a>]
+              <!-- [<a href="https://github.com/shunhase12">github</a>] -->
+              [<a href="https://www.linkedin.com/in/shun-hasegawa-a28115152">LinkedIn</a>]
+              <img src=./img/mail-icon.png width="20" height="12">hasegawa.s<img src="./img/lrmail.png">
+          </font>
+          </b>
+      </h2>
+      <hr>
+
+      I'm a third-year Ph.D student at <a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology</a>, supervised by <a href="http://www.lr.pi.titech.ac.jp/~oku/index-e.html">Prof. Manabu Okumura</a>.<br>
+      Previously I recieved my BSc from <a href="http://www.nlp.mibel.cs.tsukuba.ac.jp/">The University of Tsukuba (Japanese web page)</a> under the supervision of <a href="http://www.mibel.cs.tsukuba.ac.jp/~inui/en/">Prof. Takashi Inui</a>.<br>
+      My research interest is in machine learning for natural language processing, and I am particularly interested in making machine more robust to lexical diversity as in social media.<br>
+      Outside the university, I have worked on social media analysis and natural language generation from numeric data (data2text).<br>
+
+      <h3>Publications</h3>
+      <ul>
+          <li>
+              <b>Detecting Non-standard Word Usages from Social Media.</b> (in Japanese) <br>
+              <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura.<br>
+              Journal of Natural Language Processing, The Association for Natural Language Processing, Vol. 26, No. 2, 2019.
+          </li>
+          <li>
+              <b>Detecting Earthquake Survivors with Serious Mental Affliction</b>. <br>
+              <u>Tatsuya Aoki</u>, Katsumasa Yoshikawa, Tetsuya Nasukawa, Hiroya Takamura and Manabu Okumura.<br>
+              Computational Linguistics, Springer Nature, Vol. 781, pp. 3-14, 2018.
+          </li>
+      </ul>
+      <h4>International Conferences</h4>
+      <ul>
+          <li>
+              <b>Neural Text Normalization Leveraging Similarities of Strings and Sounds</b>     <br>
+              Riku Kawamura, <u>Tatsuya Aoki</u>, Hidetaka Kamigaito, Hiroya Takamura and Manabu Okumura. <br>
+              In <i>Proceedings of the Conference on Computational Linguistics (COLING)</i>. 2020.
+          </li>
+          <li>
+              <b>Controlling Contents in Data-to-Document Generation with Human-Designed Topic Labels</b> [<a href="https://www.aclweb.org/anthology/W19-8640">paper</a>]    <br>
+              Kasumi Aoki, Akira Miyazawa, Tatsuya Ishigaki, <u>Tatsuya Aoki</u>, Hiroshi Noji, Keiichi Goshima, Ichiro Kobayashi, Hiroya Takamura and Yusuke Miyao. <br>
+              In <i>Proceedings of the Conference on Natural Language Generation (INLG)</i>. 2019.
+          </li>
+          <li>
+              <b>Generating Market Comments Referring to External Resources</b> [<a href="http://aclweb.org/anthology/W18-6515">paper</a>]    <br>
+              <u>Tatsuya Aoki</u>, Akira Miyazawa, Kasumi Aoki, Keiichi Goshima, Tatsuya Ishigaki, Ichiro Kobayashi, HiroyaTakamura and Yusuke Miyao. <br>
+              In <i>Proceedings of the Conference on Natural Language Generation (INLG)</i>. 2018.
+          </li>
+          <li>
+              <b>Distinguishing Japanese Non-standard Usages from Standard Ones</b> [<a href="http://aclweb.org/anthology/D/D17/D17-1246.pdf">paper</a>]   <br>
+              <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura. <br>
+              In <i>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>. 2017.
+          </li>
+          <li>
+              <b>Detecting Earthquake Survivors with Serious Mental Affliction</b>. <br>
+              <u>Tatsuya Aoki</u>, Katsumasa Yoshikawa, Tetsuya Nasukawa, Hiroya Takamura and Manabu Okumura.<br>
+              In <i>Proceedings of the Conference of the Pacific Association for Computational Linguistics (PACLING)</i>. 2017.
+          </li>
+      </ul>
+
+      <h4 style='display:inline'>Domestic Conferences
+      <span onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;"><font size="2.5">+</font></a>
+      </span>
+      </h4>
+      <div id="open" style="display:none;clear:both;">
+        <ul>
+            <li> 
+                <b>時系列数値データにおける変化要因の記述</b><br>
+                <u>Tatsuya Aoki</u>, Akira Miyazawa, Kasumi Aoki, Keiichi Goshima, Ichiro Kobayashi, Hiroya Takamura and Yusuke Miyao.<br>
+                言語処理学会 第24回年次大会 (2018.3)
+            </li>
+            <li> 
+                <b>ソーシャルメディアにおける俗語の検出</b> [<a href="http://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/A3-3.pdf">paper</a>]<br>
+                <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura.<br>
+                言語処理学会 第23回年次大会 (2017.3) 
+            </li>
+            <li>
+                <b>震災被災者のソーシャルメディア分析を通じたメンタルケアの可能性</b><br>
+                <u>Tatsuya Aoki</u>, Tetsuya Nasukawa, Katsumasa Yoshikawa, Hiroya Takamura and Manabu Okumura.<br>
+                第10回テキストマイニングシンポジウム (2017.2)
+            </li>
+        </ul>
+      </div>
+
+      <h3>Experience</h3>
+      <ul>
+          <div class="table">
+          <li> 2019.06 - present&nbsp; &nbsp; Research Intern</div>
+          <div><a href="http://www.ousia.jp/en/">Studio Ousia</a></div>
+          </li>
+
+          <br>
+          <div class="table">
+          <li> 2019.07 - 2019.11 &nbsp; ML/NLP Intern</div>
+          <div>Apple Inc.</div>
+          </li>
+
+          <br>
+
+          <div class="table">
+          <li> 2018.06 - 2019.05 &nbsp; Visiting Student</div>
+          <div>UniMelb NLP Group, working with <a href="https://people.eng.unimelb.edu.au/tbaldwin/">Prof. Timothy Baldwin</a>, <br>
+          <a href="http://www.cis.unimelb.edu.au">The University of Melbourne</a></div>
+          </li>
+
+          <br>
+          <div class="table">
+          <li> 2017.05 - 2018.05 &nbsp; Technical Staff</div>
+          <div><a href="https://aistairc.github.io/plu/index.html">Perception and Language Understanding Group</a>, <br>
+          <a href="http://www.aist.go.jp/index_en.html">National Institute of Advanced Industrial Science and Technology (AIST)</a></div>
+           </li>
+
+           <br>
+           <div class="table">
+           <li> 2016.12 - 2017.02 &nbsp; Research Assistant</div>
+           <div> <a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology </a> <br> </div>
+
+           <br>
+           <div class="table">
+           <li>2016.09 - 2016.11 &nbsp; Research Intern</div>
+           <div> <a href="http://www.research.ibm.com/labs/tokyo/">IBM Research - Tokyo</a><br></div>             
+           </li>
+
+      </ul>
+
+      <h3>Miscellaneous</h3>
+      <h4>PyTorch implementation</h4>
+        <ul>
+            <li> 
+                <b>Dependency Parsing as Head Selecton, Zhang et al., EACL 2017</b> [<a href="https://github.com/tatsuokun/deepdep">github</a>]<br>
+                with an emperical result that ELMo embedding can gain accuracy. <br>
+            </li>
+            <li> 
+                <b>context2vec: Learning Generic Context Embedding with Bidirectional LSTM, Melamud et al., CoNLL 2016</b> [<a href="https://github.com/tatsuokun/context2vec">github</a>]<br>
+                with 3x speed up compared to the original implementation.
+            </li>
+        </ul>
+
+    </div>
+
+    <a href="http://tatsuokun.github.io/index.html">
+          <img src="https://ga-beacon.appspot.com/UA-100758913-1/tatsuokun.github.io/index.html?pixel"/>
+    </a>
+  </body>
 </html>
