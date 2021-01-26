@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,13 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Shun Hasegawa</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
 
   </head>
   <body>
@@ -22,7 +27,8 @@
       div.table{
       clear:both;
       float:left;
-      width:300px;
+      width:350px;
+      margin-bottom: 0px;
       }
      </style>
 
@@ -30,146 +36,194 @@
       <h2>Shun Hasegawa
           <b  style="FONT-WEIGHT:NORMAL;">
           <font size=3>
-              [<a href="https://tatsuokun.github.io/cv.pdf">CV</a>]
+              [<a href="https://shunhase12.github.io/cv.pdf">CV</a>]
               <!-- [<a href="https://github.com/shunhase12">github</a>] -->
               [<a href="https://www.linkedin.com/in/shun-hasegawa-a28115152">LinkedIn</a>]
               <img src=./img/mail-icon.png width="20" height="12">hasegawa.s<img src="./img/lrmail.png">
+              <div style="margin-top:5px;">
+              English/<a href="https://shunhase12.github.io/">日本語</a>
+              </div>
           </font>
           </b>
       </h2>
       <hr>
 
-      I'm a third-year Ph.D student at <a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology</a>, supervised by <a href="http://www.lr.pi.titech.ac.jp/~oku/index-e.html">Prof. Manabu Okumura</a>.<br>
-      Previously I recieved my BSc from <a href="http://www.nlp.mibel.cs.tsukuba.ac.jp/">The University of Tsukuba (Japanese web page)</a> under the supervision of <a href="http://www.mibel.cs.tsukuba.ac.jp/~inui/en/">Prof. Takashi Inui</a>.<br>
-      My research interest is in machine learning for natural language processing, and I am particularly interested in making machine more robust to lexical diversity as in social media.<br>
-      Outside the university, I have worked on social media analysis and natural language generation from numeric data (data2text).<br>
+        I'm a third-year Ph.D student at <a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology</a>, supervised by <a href="http://www.lr.pi.titech.ac.jp/~oku/index-e.html">Prof. Manabu Okumura</a>.<br>
+      Previously I recieved my BSc from Tokyo Institute of Technology under the supervision of Prof. Toshiya Itoh.<br>
+      My research interest is machine learning for natural language processing, and particularly Natural Language Understanding and Text Generation.
 
       <h3>Publications</h3>
       <h4>Journals</h4>
       <ul>
           <li>
-              <b>Detecting Non-standard Word Usages from Social Media.</b> (in Japanese) <br>
-              <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura.<br>
-              Journal of Natural Language Processing, The Association for Natural Language Processing, Vol. 26, No. 2, 2019.
-          </li>
-          <li>
-              <b>Detecting Earthquake Survivors with Serious Mental Affliction</b>. <br>
-              <u>Tatsuya Aoki</u>, Katsumasa Yoshikawa, Tetsuya Nasukawa, Hiroya Takamura and Manabu Okumura.<br>
-              Computational Linguistics, Springer Nature, Vol. 781, pp. 3-14, 2018.
+              <b>Optimal Online Algorithms for the Multi-Objective Time Series Search Problem</b> [<a href="https://www.semanticscholar.org/paper/Optimal-online-algorithms-for-the-multi-objective-Hasegawa-Itoh/d2e02f0ddcb4e73507befe43cd782534532ae69e">paper</a>]<br>
+              <u>Shun Hasegawa</u> and Toshiya Itoh.<br>
+              Journal of Theoretical Computer Science, Springer, Vol. 718, pp. 58-66, 2018.
           </li>
       </ul>
       <h4>International Conferences</h4>
       <ul>
           <li>
-              <b>Neural Text Normalization Leveraging Similarities of Strings and Sounds</b>     <br>
-              Riku Kawamura, <u>Tatsuya Aoki</u>, Hidetaka Kamigaito, Hiroya Takamura and Manabu Okumura. <br>
-              In <i>Proceedings of the Conference on Computational Linguistics (COLING)</i>. 2020.
+              <b>Japanese Sentence Compression with a Large Training Dataset</b> [<a href="https://www.aclweb.org/anthology/P17-2044/">paper</a>]<br>
+              <u>Shun Hasegawa</u>, Yuta Kikuchi, Hiroya Takamura and Manabu Okumura. <br>
+              In <i>Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (<b>ACL</b>)</i>. 2017.
           </li>
           <li>
-              <b>Controlling Contents in Data-to-Document Generation with Human-Designed Topic Labels</b> [<a href="https://www.aclweb.org/anthology/W19-8640">paper</a>]    <br>
-              Kasumi Aoki, Akira Miyazawa, Tatsuya Ishigaki, <u>Tatsuya Aoki</u>, Hiroshi Noji, Keiichi Goshima, Ichiro Kobayashi, Hiroya Takamura and Yusuke Miyao. <br>
-              In <i>Proceedings of the Conference on Natural Language Generation (INLG)</i>. 2019.
-          </li>
-          <li>
-              <b>Generating Market Comments Referring to External Resources</b> [<a href="http://aclweb.org/anthology/W18-6515">paper</a>]    <br>
-              <u>Tatsuya Aoki</u>, Akira Miyazawa, Kasumi Aoki, Keiichi Goshima, Tatsuya Ishigaki, Ichiro Kobayashi, HiroyaTakamura and Yusuke Miyao. <br>
-              In <i>Proceedings of the Conference on Natural Language Generation (INLG)</i>. 2018.
-          </li>
-          <li>
-              <b>Distinguishing Japanese Non-standard Usages from Standard Ones</b> [<a href="http://aclweb.org/anthology/D/D17/D17-1246.pdf">paper</a>]   <br>
-              <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura. <br>
-              In <i>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>. 2017.
-          </li>
-          <li>
-              <b>Detecting Earthquake Survivors with Serious Mental Affliction</b>. <br>
-              <u>Tatsuya Aoki</u>, Katsumasa Yoshikawa, Tetsuya Nasukawa, Hiroya Takamura and Manabu Okumura.<br>
-              In <i>Proceedings of the Conference of the Pacific Association for Computational Linguistics (PACLING)</i>. 2017.
+              <b>Optimal Online Algorithms for the Multi-Objective Time Series Search Problem</b> [<a href="https://www.semanticscholar.org/paper/Optimal-Online-Algorithms-for-the-Multi-objective-Hasegawa-Itoh/498522e8b8e661ffd59deaebce8b3e4ebf5a94be">paper</a>]    <br>
+              <u>Shun Hasegawa</u> and Toshiya Itoh.<br>
+              In <i>Proceedings of The 10th International Conference and Workshops on Algorithms and Computing (WALCOM)</i>. 2016.
           </li>
       </ul>
 
-      <h4 style='display:inline'>Domestic Conferences
-      <span onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
-          <a style="cursor:pointer;"><font size="2.5">+</font></a>
-      </span>
-      </h4>
+      <h4 style='display:inline'>Domestic Conferences</h4>
+      <ul>
+          <li>
+                <b>Extractiveness-based dataselection for abstractive sentence summarization</b> [<a href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=198869&item_no=1">paper</a>]<br>
+                <u>Shun Hasegawa</u>, Hidetaka Kamigaito, Manabu Okumura.<br>
+                In IPSJ Natural Language Processing (2019.8),
+                <a href="https://nl-ipsj.or.jp/young-award/"><b>Young Researcher Award</b></a>
+          </li>
+
+          <li>
+              <span onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+          <a style="cursor:pointer;"><font size="2.5">+6 papers (in Japanese)</font></a>
+              </span>
+          </li>
+
       <div id="open" style="display:none;clear:both;">
-        <ul>
-            <li> 
-                <b>時系列数値データにおける変化要因の記述</b><br>
-                <u>Tatsuya Aoki</u>, Akira Miyazawa, Kasumi Aoki, Keiichi Goshima, Ichiro Kobayashi, Hiroya Takamura and Yusuke Miyao.<br>
-                言語処理学会 第24回年次大会 (2018.3)
+            <li>
+                <b>共参照情報を活用した映画のあらすじ要約生成</b> <br>
+                川原田 将之, <u>長谷川 駿</u>, 上垣外 英剛, 高村 大也, 奥村 学.<br>
+                言語処理学会 第27回年次大会 (2021.3)
+            </li>
+            <li>
+                <b>傾聴の応答で繰り返される語句の検出向上</b> <br>
+                川本 稔己, <u>長谷川 駿</u>, 上垣外 英剛, 船越 孝太郎, 奥村 学.<br>
+                言語処理学会 第27回年次大会 (2021.3)
+            </li>
+            <li>
+                <b>事前学習と汎化タグによる方言翻訳の精度向上</b> [<a href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=183784&item_no=1">paper</a>]<br>
+                <u>長谷川 駿</u>, 田中 駿, 山本 悠二, 高村 大也, 奥村 学.<br>
+                情報処理学会 第233回自然言語処理研究発表会 (2017.10)
             </li>
             <li> 
-                <b>ソーシャルメディアにおける俗語の検出</b> [<a href="http://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/A3-3.pdf">paper</a>]<br>
-                <u>Tatsuya Aoki</u>, Ryohei Sasano, Hiroya Takamura and Manabu Okumura.<br>
+                <b>文圧縮を活用したヘッドライン生成</b> [<a href="https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/A1-3.pdf">paper</a>]<br>
+                <u>長谷川 駿</u>, 平尾 努, 奥村 学, 永田 昌明.<br>
                 言語処理学会 第23回年次大会 (2017.3) 
             </li>
             <li>
-                <b>震災被災者のソーシャルメディア分析を通じたメンタルケアの可能性</b><br>
-                <u>Tatsuya Aoki</u>, Tetsuya Nasukawa, Katsumasa Yoshikawa, Hiroya Takamura and Manabu Okumura.<br>
-                第10回テキストマイニングシンポジウム (2017.2)
+                <b>大規模データを用いた日本語文圧縮</b> [<a href="https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/A1-3.pdf">paper</a>]<br>
+                <u>長谷川 駿</u>, 菊池 悠太, 高村 大也, 奥村 学.<br>
+                言語処理学会 第23回年次大会 (2017.3)
             </li>
-        </ul>
+            <li>
+                <b>Best Possible Online Algorithms for the Multi-Objective Time Series Search Problem</b> [<a href="https://www.anlp.jp/proceedings/annual_meeting/2017/pdf_dir/A1-3.pdf">paper</a>]<br>
+                <u>Shun Hasegawa</u> and Toshiya Itoh.<br>
+                LAシンポジウム2016 (2016.7)
+            </li>
+
       </div>
+      </ul>
+
+      <h3>Education</h3>
+      <ul>
+          <div class="table">
+          <li> 2018.04 - present &nbsp;&nbsp;&nbsp; Ph.D in Engineering</div>
+          <div><a href="https://www.titech.ac.jp/english/">Tokyo Institute of Technology</a><br>
+              &nbsp;&nbsp;Supervisor: Manabu Okumura<br>
+              &nbsp;&nbsp;Theme: Improvement of single document summarizer</div>
+          </li>
+
+          <br>
+          <div class="table">
+          <li> 2016.04 - 2018.03 &nbsp;&nbsp; M.S. in Engineering</div>
+          <div><a href="https://www.titech.ac.jp/english/">Tokyo Institute of Technology</a><br>
+              &nbsp;&nbsp;Supervisor: Manabu Okumura<br>
+              &nbsp;&nbsp;Theme: Japanese Sentence Compression with a Large Training Dataset</div>
+          </li>
+
+          <br>
+          <div class="table">
+          <li> 2012.04 - 2016.03 &nbsp;&nbsp; B.S. in Computer Science</div>
+          <div><a href="https://www.titech.ac.jp/english/">Tokyo Institute of Technology</a><br>
+              &nbsp;&nbsp;Supervisor: Toshiya Itoh<br>
+              &nbsp;&nbsp;Theme: Optimal Online Algorithms for the Multi-Objective Time Series Search Problem</div>
+          </li>
+
+      </ul>
+
 
       <h3>Experience</h3>
       <ul>
           <div class="table">
-          <li> 2019.06 - present&nbsp; &nbsp; Research Intern</div>
-          <div><a href="http://www.ousia.jp/en/">Studio Ousia</a></div>
+          <li> 2020.01 - present &nbsp;&nbsp;&nbsp; Research Assistant</div>
+          <div><a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology, Okumura-Takamura laboratory</a><br>
+              &nbsp;&nbsp;Reduced training time to 50% without performance regression by the proposed data selectionmethod in automatic text summarization<br>
+              &nbsp;&nbsp;Implemented a novel summarization neural model from scratch (Pytorch)
+          </div>
           </li>
 
           <br>
           <div class="table">
-          <li> 2019.07 - 2019.11 &nbsp; ML/NLP Intern</div>
-          <div>Apple Inc.</div>
-          </li>
-
-          <br>
-
-          <div class="table">
-          <li> 2018.06 - 2019.05 &nbsp; Visiting Student</div>
-          <div>UniMelb NLP Group, working with <a href="https://people.eng.unimelb.edu.au/tbaldwin/">Prof. Timothy Baldwin</a>, <br>
-          <a href="http://www.cis.unimelb.edu.au">The University of Melbourne</a></div>
+          <li> 2016.08 - 2016.12 &nbsp;&nbsp; Research Intern</div>
+          <div><a href="https://www.kecl.ntt.co.jp/">NTT Communication Science Laboratories</a><br>
+              &nbsp;&nbsp;Supervisor: Tsutomu Hirao<br>
+              &nbsp;&nbsp;Adapted sentence compression for pre-processing of sentence summarization
+          </div>
           </li>
 
           <br>
           <div class="table">
-          <li> 2017.05 - 2018.05 &nbsp; Technical Staff</div>
-          <div><a href="https://aistairc.github.io/plu/index.html">Perception and Language Understanding Group</a>, <br>
-          <a href="http://www.aist.go.jp/index_en.html">National Institute of Advanced Industrial Science and Technology (AIST)</a></div>
-           </li>
+          <li> 2016.04 - 2018.03 &nbsp;&nbsp; Admin Group Leader</div>
+          <div><a href="https://www.titech.ac.jp/english/">Tokyo Institute of Technology</a>, Laboratory Server Admin<br>
+              &nbsp;&nbsp;Formulated server specifications that suit the budget and server usage (gpu, cpu, file servers)<br>
+              &nbsp;&nbsp;Set up and maintained 30 servers (gpu, cpu, file, web, gateway, dns, nis and dhcp servers)<br>
+              &nbsp;&nbsp;Reorganized admin group to minimize mental and time burden<br>
+          </div>
+          </li>
 
-           <br>
-           <div class="table">
-           <li> 2016.12 - 2017.02 &nbsp; Research Assistant</div>
-           <div> <a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology </a> <br> </div>
+          <br>
+          <div class="table">
+          <li> 2016.01 - 2019.02 &nbsp;&nbsp; Research Assistant</div>
+          <div><a href="http://lr-www.pi.titech.ac.jp/wp_en/">Tokyo Institute of Technology, Okumura-Takamura laboratory</a><br>
+              &nbsp;&nbsp;Adapted the rule-based method using syntactic information from English to Japanese<br>
+              &nbsp;&nbsp;Developed a neural dialect translation method using low-resource data (1k parallel sentences)
+          </div>
+          </li>
 
-           <br>
-           <div class="table">
-           <li>2016.09 - 2016.11 &nbsp; Research Intern</div>
-           <div> <a href="http://www.research.ibm.com/labs/tokyo/">IBM Research - Tokyo</a><br></div>             
-           </li>
+          <br>
+          <div class="table">
+          <li> 2019.07 - 2019.11 &nbsp;&nbsp; Software Engineer</div>
+          <div>Shakehands Co., Ltd.<br>
+              &nbsp;&nbsp;Improved CVR by modifying wordpress-driven web pages and landing page<br>
+              &nbsp;&nbsp;Analyzed web pages using Google Analytics<br>
+              &nbsp;&nbsp;Work experience in a venture of several employees
+          </div>
+          </li>
 
       </ul>
 
-      <h3>Miscellaneous</h3>
-      <h4>PyTorch implementation</h4>
+      <h3>Skills</h3>
         <ul>
-            <li> 
-                <b>Dependency Parsing as Head Selecton, Zhang et al., EACL 2017</b> [<a href="https://github.com/tatsuokun/deepdep">github</a>]<br>
-                with an emperical result that ELMo embedding can gain accuracy. <br>
+            <li style="margin-bottom: 10px">
+                Programming: Python3, Bash, Pytorch, Chainer, Scikit-learn, numpy, C, Java, php, javascript, html, css, ganglia, nis, autofs, zfs, dhcpd, iptables, appach, quagga, docker<br>
             </li>
-            <li> 
-                <b>context2vec: Learning Generic Context Embedding with Bidirectional LSTM, Melamud et al., CoNLL 2016</b> [<a href="https://github.com/tatsuokun/context2vec">github</a>]<br>
-                with 3x speed up compared to the original implementation.
+            <li style="margin-bottom: 10px">
+                Languages: English (Proficient), Japanese (Native), Mandarin Chinese (Elementary)<br>
             </li>
+            <li style="margin-bottom: 10px">
+                Research Theme: Automatic Text Summarization (Abstractive Sentence Summarization, Headline Generation, Sentence Compression, Abstractive Single Document Summarization, Sentence Selection), Automatic Dialect Translation, Grammatical Error Correction<br>
+            </li>
+            <li style="margin-bottom: 10px">
+                ML, NLP: Deep Learning (LSTM, Transformer, Bert), SVM, SMT, word2vec, ILP, Sequence Labeling, Natural Language Understanding, Text Generation, Data Filtering, Data Selection, Syntactic Analysis, Discourse Structure Analysis, Tf-idf, etc<br>
+            </li>
+            <li style="margin-bottom: 100px">
+                Hobby: Tennis, Baseball, Table tennis, Fishing, Billiards, Board game, Travel, etc<br>
+            </li>
+
         </ul>
 
     </div>
 
-    <a href="http://tatsuokun.github.io/index.html">
-          <img src="https://ga-beacon.appspot.com/UA-100758913-1/tatsuokun.github.io/index.html?pixel"/>
-    </a>
   </body>
 </html>
